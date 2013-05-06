@@ -12,9 +12,11 @@ Install [vagrant](http://vagrantup.com/)
 
 Download and Install [VirtualBox](http://www.virtualbox.org/)
 
-Download a vagrant box (name of the box is supposed to be lucid32)
+Download a vagrant box (name of the box is supposed to be debian-70)
 
-    $ vagrant box add debian-70 https://raw.github.com/gmoigneu/vagrant-debian-wheezy-box/master/debian-70.box
+    $ vagrant box add debian-70 https://static.nls.io/debian-70.box
+
+Or get the box on its GitHub repo : [vagrant-debian-wheezy-box](https://github.com/gmoigneu/vagrant-debian-wheezy-box)
 
 Clone this repository
 
